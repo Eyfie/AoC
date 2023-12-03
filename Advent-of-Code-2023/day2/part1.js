@@ -36,7 +36,5 @@ fs.readFile('./input.txt', 'utf8', (err, data) => {
 })
 
 
-
-
 const endTime = performance.now();
 console.log(`Time taken : ${parseFloat(endTime - startTime, 2).toFixed(2)}ms`)
