@@ -2,6 +2,7 @@ const fs = require('fs')
 const startTime = performance.now()
 
 fs.readFile('input.txt', 'utf8', (err, data) => {
+    if(err) return console.error(err);
 
     let pilePoints = [];
 
